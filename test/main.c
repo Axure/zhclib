@@ -5,13 +5,13 @@
 
 #include "Common.h"
 
-#include "Stack.h"
+#include "LinkedStack.h"
 
 
 int main() {
-    Stack *stack;
+    LinkedStack *stack;
     Time_start();
-    stack = Stack_new();
+    stack = LinkedStack_new();
     $(stack, delete);
     return 0;
 }

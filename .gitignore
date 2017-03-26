@@ -23,3 +23,10 @@ Release
 .settings
 .cproject
 .project
+
+# CLion
+.idea
+cmake-build*
+
+# Misc
+log.txt
